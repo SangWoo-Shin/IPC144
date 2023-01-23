@@ -1,0 +1,52 @@
+// ############################################################################################
+//  Assignment: 2
+//  Milestone : 2
+// #############################################################################################
+//  Student Name  : SangWoo Shin
+//  Student ID    : 119294213
+//  Student Email : sshin36@myseneca.ca
+//  Course Section:  NFF
+// #############################################################################################
+
+
+1. During performing the assignment 2, I newly used the <string.h> header file and, among the functions in <string.h> 
+   such as strcat, strcmp and strcpy, I was able to make it easier through the strcpy. In this assignment and I mainly used 
+   strcpy and strcmp. Firstly, the reason I used strcmp often is that when an agent creates an account and then logs in
+   again later, agent must enter a password, and when the agent enters the password to log in, the program have to
+   compare the entered password with the original password, and if the result value from strcmp is zero, the agent can access it.
+   However, if the result value is a number other than zero, it means that the two passwords are different, so the login failed.
+   If I try to compare two string values without using strcmp, since it needs to compare each value of index from string value,
+   I need to use iteration fucntions such as for loop or while loop. As a result, although it is enough only one line by using strcmp,
+   without strcmp, I have to type long lines of codes to make the comparsion process. Next, the reason why I used strcpy
+   the most in this task is that if you use this command to copy and store the other string values in the string value, one line is enough.
+   For example, when a user leaves a message on a ticket, to save the sender's name, if the sender is a customer,
+   I used 'data->tickets[ticket Index].message[messageIndex].name' as the first argument in the strcpy and put the
+   'data->accounts [account Index].person.name' as the second argument. After then, I saved the name in the sender's name
+   of the message by adding second argument to the first argument and when the sender was an agent, I saved the sender's name
+   by adding the agent's name logged in to the second argument of strcpy. If I want to store string values in other string variable
+   without using strcpy, I need to type quite a long line of codes to complete all of these processes, because I need to store
+   the string values one by one using iteration tools such as for loop or while loop.
+   
+ 
+2. In this assignment, at first, I newly created 'findAccountIndexThroughTicketIndex', 'displaySpecificTicketDetailRecords' and 'removeAccount' in accountTicketingUI.h.
+   Because they require struct AccountTicketingData argument. Moreover each function can help find account index through the ticket index
+   and show the new, active, and closed ticket by using flag and remove accounts with tickets respectively. To explain 'displaySpecificTicketDetailRecords' in more detail, the function
+   requires 4 arguments, struct AccountTicketingData* data, maxElements, Indicator, flag and, In this function, When the flag is 0,
+   I can only see the new ticket list. On the other hand, when the flag is 1 and if the indicator is 1, I can only check the active ticket list,
+   and if the indicator is 0, I can only check the closed ticket list. Through this function, the process could be performed without repetition
+   with a shorter code. Additionally, I declared ticket.h and ticket.c and then, in the ticket.c, I defined 'displayTicketHeader' function which
+   is similar with 'displayAccountDetailHeader' in accountTicketingUI.h and then, I declared 'displayTicketDetailRecord' function which requires
+   'struct Ticket* tickets', 'struct Account* accounts' as arguments. This function is almost same as 'displayAccountDetailRecord'
+   in accountTicketingUI.h. After checking list from 'displaySpecificTicketDetailRecords' function, if the user wants to see messages
+   in the specific ticket from list, user can check the messages through the 'confirmMessage' function in Ticket.h. In this function,
+   if the user's choice is 0, then user can return to previous menu and if the user's choice is the ticket number in the list, 
+   then the user can check all the messages of the ticket. However, if the user's choice is neither 0 nor ticket number from the list,
+   then this function would print "ERROR: Invalid ticket number." In addition, 'findTicketIndexThroughTicketNum'
+   was declared to find the index, and as the title suggests, each function find the ticket index through the ticket number and the
+   account index through the ticket index respectively and return the integer index at the end of ends. Moreover, through the
+   'checkMessageBox' and 'checkTicketBox', It is possible to immediately check whether the user can create more messages and tickets
+   in each function. I declared the 'addNewTicket' function which requires 'struct AccountTicketingData* data' as an argument.
+   In 'addNewTicket', a new ticket can be created through the ticket number automatically assigned and then user can record
+   the ticket of subject and the ticket message details. Lastly, I declared the 'manageTicket' function which requires
+   struct AccountTicketingData* data, const struct Account* login as arguments. In this function, user can change the staus of ticket or add message to the ticket. 
+   

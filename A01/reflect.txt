@@ -1,0 +1,57 @@
+//==================================
+//  Assignments #1 Milestone #2
+//  Name: Sang Woo Shin
+//  ID: 119294213
+//  Email: sshin36@myseneca.ca
+//  Section: NFF
+//===================================
+
+1. At first, when I used the buffer to make functions such as 'getInteger', 'getDouble' and so on, It was very hard for me.
+   Because, I did not fully understand about buffer so, I studied buffer through the documents in Blackboard and some
+   lectures in the Internet. After understanding the buffer, I tried to create function again, but unlike the previous workshop,
+   this task had to receive inputs like '%d%c' until it met the conditions rather than one input.  Because it needs to receive 
+   input value like answer and new line combined to check whether the user has exceeded the maximum length of the value
+   or typed the wrong value. So it needed to receive answer and new line combined value at the same time and then ,through
+   the buffer, it could check whether the user typed wrong value or not. However, at first, I thought I had a theoretical
+   understanding of the buffer, but as I tried to use it diectly for programming, I needed a more detailed understanding of 
+   this process and as a result, it took more time. After I got used to directly using the buffer for programming, It was easy
+   to make functions before trying to make the cString function. Personally, it was the most challenging to make
+   cString function for me. The results to be printed were slightly different according to the given range, so each range
+   in the function had to be made well so that they did not overlap. So I draw the Bendier gram on the paper to find
+   proper range for the function. Moreover, unlike the getCharOption function, the cString was a function that return
+   no value. It was quite challenge to find method how to transfer the value to the main function without a return value.
+   But ,after I found this function require a pointer argument, I searched the arrays and pointer documents in the Blackboard.
+   The answer was quite simple, since a pointer value store the information in its address, the value could be used
+   in the main function without a return value.
+
+2. If all the complicated codes are written in a main function, the length of  the codes would be enormously long and
+   ,as a result, the codes would be extremely hard to understand. Thus, to make the code more understandable, it needs
+   to be declared the functions like "helper functions" in the library. One of the biggest advantage using "helper functions" library
+   is making the length of the codes much shorter and, as a result, the codes become easier to read. Moreover, in general,
+   the main function needs to use a variety of tools like functions to get the result value, but if it declare the functions in the library,
+   it would make other users understand at a glace the codes in main function by using only the name of function which is
+   declared in the library. Because the name of function refers the overall content of function, user could understand easly by reading
+   only a name of function without analyzing the long code and understanding it in detail. Additionally, to make the main function a 
+   little cleaner, declaring a variable in the user library and calling the library from the main function can act as a global variable
+   without declaring a variable in the main function. Secondly, in terms of maintaing the code, using helper functions in library is very useful.
+   As mentioned above, the name of the declared function represents the overall content of the function, so if an error occurs
+   in a particular part of the main function, it can be accessed and corrected immediately. Even using the macro to define maximum or minimum
+   values used in a particular fuction and link them to the function, it was good to change them immediately when they needed to be chaged later.
+   For example, If you want to change the maximum age you can enter when creating an account in a banking program, just change the macro minimum 
+   value associated with the function receiving age, and you can change all the information about the minimum value in that function at once.
+
+3. In order to create a difficult and complex program, programmer have to declare and use various variables, and if the programmer declare the variable
+   in huge quantities to create a program, it will take a lot of time for other users to read and understand it later. Structs declarations are essential
+   to make these many variables easier to understand and easier to manage. This is because programmers can group the variables which are related
+   to each oter and stored them in one struct by declaring a struct. In addition, through the struct declaration, programmer could well organize the code and
+   , as a result, if there are error in the program, the programmer would be more easy to find the error. Moreover, One of the advantages of the structure
+   is that all variables can be grouped into one structure regardless of the data type. For example, if a banking program needs a variety of variables to store
+   customers' personal information such as age, income, name and so on, at first, you could declare each variables corresponding to that information and
+   bind them as a personal information structure. Even structures can be stored in an array format, so multiple customer information can be stored at once.
+   However, there are also some limitaions of using structure in C programming. Firstly, If you declare a structure and declare another structure in it, 
+   you can bind complex data as briefly as possible, but when other users try to understand these codes, it is quite difficult to understand the code immediately
+   because they have to understand the structure while connecting another structure. So The more complicated the program gets, the harder it becomes to understand.
+   Secondly, When multiple structures are declared in a structure, since they are connected as one, so if an error occurs in a specific variable in the structure,
+   there is a disadvantage that other variables connected to the variable which occur an error must be corrected together.
+   
+   

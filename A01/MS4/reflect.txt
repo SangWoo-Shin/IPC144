@@ -1,0 +1,57 @@
+// #############################################
+//  Assignment: 1 
+//  Milestone : 4
+// #############################################
+//  Student Name  : SangWoo Shin
+//  Student ID    : 119294213
+//  Student Email : sshin36@myseneca.ca
+//  Course Section:  NFF
+// ##############################################
+
+1. While doing the IPC144 task, I have solved the problem by fixing very small things one by one to
+   get the perfect output every moment. Especially, when I send my workshop code or assignment code
+   through the matrix, I have to check if there is a wrong spelling word in my result or if the line spacing
+   is different from the original. Moreover, in this assignment, I declared the function prototypes faster than
+   the structures, it was an little error, but in the Visual Studio Code there were no errors. However, when I compiled
+   my assignment through the gcc, there are lots of errors with weird expression. As a result, I took about 14 hours
+   to find my errors in code and I could not submit my assignment on time. However, I do not blame this way of
+   submitting assignments. This is because I think the ability to produce results that exactly match 
+   the results required by someone in a short time is one of the most important abilities for programmers.
+   As a result, in the past, when I made the code, I just had to make the result I wanted, regardless of 
+   how the format came out, but now I have to submit the formatted code as an assignment at a fixed time,
+   so I needed to speed up my hands and now I can use a lot of shortcuts. As several shortcut keys became available,
+   I felt that the difference between being able to use shortcut keys was much greater than I thought. Moreover
+   by using the shortcut, I could protect my wrist. Because, in the past, when I did not use any shortcut keys, If I wants
+   to modify some codes in my program, then I always have to select those codes through the mouse or track pad on 
+   my laptop. In conclusion, accuracy and quickness are very important abilities for a programmer, so the moment I modify
+   my code little by little while doing the task seems to be a good training to be a good programmer.
+
+2. From this workshop 6 to the current Assignment 1, I declared a header file and created a source file which is definition for
+   the functions of header file to complete the task. The more complicated the problem and the more required functions I had 
+   to use in the program. But if I type all the function in the main function,  it was difficult to read and understand after making
+   the program and if I had something to modify, it took a lot of time to find a part to fix. For these reasons, I realised that declaring
+   multiple functions in a header file first and defining these functions in a source file of the same name as the header file can make
+   the program more efficient and easier to understand. Of course, I can declare all the definition of functions in a header file,
+   but the reason why I only declared the name of function and type the its definition in the source file is because I can quickly
+   figure out which functions are organized in that header file and quickly access the contents of the function in source file after 
+   reading the name of function in header file. However, as the problem became more complicated, it became difficult to explain
+   the entire function with a single header file, so various header files were needed in this Agreement 1. In this situation,
+   the header file could not be named roughly. This is because, as multiple header files are created, functions in the header file
+   can be easily found later only when there are distinct names between them. For example, in the assignment 1, it require me to name
+   headerfiles that are easy to distinguish. Thus there are three headerfiles which are commonHelpers.h, account.h and accountTicketingUI.h.
+   Thanks to these clear names during the task, I was able to access locations that needed to be modified faster than when modifying code.
+
+3. In this task, I had to first log in to my account and then I had to make a decision to create, modify, or delete an account in it, and after 
+   making a decision, it requires me to make various new choices depending on the option that I selected before. In this way,
+   this task has a cascade menu system, for example, if I want to get rid of one of my accounts, I can log in to my account first
+   and select number 3 "Remove an account" from the agent menu and then I can erase the account by typing the number of acount
+   that I want to erase. As another example, if I want to change the contents of one of my accounts, first enter the account number
+   in the "Account ticketing system" to log in, and access the agent menu. Then, select number 2 "modify an existing account"
+   and enter the number of the account I want to change. After that, I could find new options to change my account type, personal information,
+   or login information, and I can select what I want to change and modify the information. As shown in the example above, the cascaded system
+   shows various tasks to the user, and as the user selects, it gradually narrows down to the desired task. If the program is organized, the user
+   can easily and quickly access the tasks that users want by dividing them into parts. Another advantage is that building a system in a cascaded
+   system frameworks can also increase security by using the characteristics of this structure. In this task, the user must enter the correct account number
+   in the login menu without initially exposing all options to the user to access the account. However, if the program is organized in a way
+   that shows all the menus at once without being cascaded, it would not be possible to authenticate the users through the personal passwords or
+   account numbers to access the information.

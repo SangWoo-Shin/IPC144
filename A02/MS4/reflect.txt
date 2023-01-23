@@ -1,0 +1,42 @@
+// #############################################################################################
+//  Assignment: 2
+//  Milestone : 4
+// #############################################################################################
+//  Student Name  : SangWoo Shin
+//  Student ID    : 119294213
+//  Student Email : sshin36@myseneca.ca
+//  Course Section:  NFF
+// #############################################################################################
+
+1. a) commonHelpers.h (none developed)
+   b) account.h (none developed)
+   c) ticket.h
+    - int loadTickets(struct Ticket* tickets, int maxElements) : This function return the number of tickets from tickets.txt
+                                                                            file and load the detail information about each ticket
+   d) accountTicketingUI.h
+    - int loadAccounts(struct Account* accounts, int maxElements) : This function return the number of accounts from accounts.txt
+                                                                                     file and load detail information about each account.
+    - void saveAccountAndTicket(struct AccountTicketingData* data, int maxAccountSize, int maxTicketSize) :
+      This function stores all changes and all existing data in accounts.txt and tickets.txt, respectively, after all modifications
+      to the account and ticket have been made.
+      
+2.   Firstly, every time I do an assignment, I do it through various trials and errors to print out the output required by the assignment,
+   and the process of finding the correct answer is very painful and hard, but the joy I feel when I finally find the answer is indescribable.
+   In particular, the number of new functions required in this assinment was small, ulike other assignments, but in order to receive
+   each value from a file and print them out, I had to use 'fscanf' to get them in the appropriate format, and it took a very long time
+   to find the right format. So, as it took a lot of time, the joy of finding the right answer was great.
+     Secondly, after finish assignment2 milestone 4, I looked back on the tasks I have been deen doing. When I saw that I created a
+   brief application related to a bank account, I felt a lot. It was so good that I made the program with such a long code, which I
+   did not even know the basics of the C language at the beginning of the first semester and I feel like I am taking a step closer to
+   becoming a programmer and it was nice to feel a sense of accomplishment.
+
+3.   The hardest and worst thing about this assignment was the trial and error mentioned earlier. Of course, it was good to feel the joy
+   of finding the right answer through all those trials and errors, but it was very difficult to repeat the same work or use breakpoints
+   to find where the errors occurred one by one to reach that stage. In particular, in this task, values had to be input or output using
+   variables contained by structure in the structure, so if an error occurred somewhere, it took quite a long time to find the location
+   where the error occurred.
+      Second, this was my mistake, but when I built in the visual studio, there was no error, so I was relieved, but when I compiled on Linux,
+   I saw numerous errors. At first, I was embarrassed because the errors in Linux compilation were full of strange words. For example, Linux
+   decribe the error like "the expected value is A but your answer is A". So I had a hard time finding this unknown errors and it was annoyed.
+   But, as a result, it was an error that occurred because I did not logically fit the order of declaration, and through this, I could know the
+   importance of the order of declaration.
