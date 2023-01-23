@@ -1,0 +1,11 @@
+Name : Sang Woo, Shin
+Student ID : 119294213
+Email : sshin36@myseneca.ca
+Section Information Code : NFF
+
+
+Through the workshop, I could learn '<stdio.h>' which is header file in C-language program has a lot of power functions
+and I learned 'printf' from those functions. SSH is a command to log in to a remote host and, in the procedure of transfering file to others
+,it require password to users, so I could safely send my assignment to professor through the Putty. Moreover, SFTP is a 'secure file transfer protocol'
+and it can send and receive files through the SSH protocol and, to send my assignments, I used WinSCP to use sftp.
+

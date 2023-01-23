@@ -1,0 +1,25 @@
+	==================================================
+	Workshop #5 (Part-2):
+	==================================================
+	Name   : Sang Woo Shin
+	ID     : 119294213
+	Email  : sshin36@myseneca.ca
+	Section: NFF
+
+1.  After finishing the workshop week 5, I stongly felt the advantages of using user-defined types (structures).
+    In this workshop, I had to store variety of information about the game and the player. If I did not use
+    the structures, as the game process progressed, I needed to control all the variables one by one which are 
+    related to the game and player information. But, by using the structures in this workshop, I can group the
+    variables related to the player and variables rlated to the game into one structure each. As a result, if the player
+    chooses to act on his turn, I can handle all the changes in variables caused by the action at once, and also I was
+    able to reflect all the changes in variables about game information at once after the player's turn.
+2.  At first, to store the history of games, "Game_History" structure wiil be declared which includes "Player_Info" structure
+    and "Game_Info" structure. Secondly, in order to continuoulsy store game results, "Player_Info" structure and 
+    "Game_Info" structure will be replace with an array format like Player_Info[the number of games] and
+     Game_Info[the number of games].
+3. During the workshop, It was the most difficult to apprehend the flow of changed value through the iteration loop.
+   Thus, to overcome this problem, when I deal with the complicated iteration loop, I drew a brief structure of the loop
+   on the paper and recorded all the changed values in the loop. Moreover, it was really hard for me to output the value
+   according to the conditions. Before starting the workshop week 5, I have only used 'if' and 'flag' but I have rarely used
+   'else if'. However, to finish this workshop, I had to use a more effective conditional sentence, so I studied more about
+   'esle if'. As a result, I could finish this workshop more easily and my understanding of 'else if' improved.                                                                                                                                                                                    

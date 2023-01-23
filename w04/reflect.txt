@@ -1,0 +1,34 @@
+==================================================
+Workshop #4 (Part-2):
+==================================================
+Name   : SangWoo,Shin
+ID     : 119294213
+Email  : sshin36@myseneca.ca
+Section: NFF
+
+1. At first, I declared the appropriate arrays for each data type. For example, if I need arrays which can
+   store Character value, then I declared 'char array[number]' on my code. Moreover, I set all the size of arrays
+   to 10. Because, all the arrays include the information about each item and the maximum number of items is
+   10 in this workshop. However, when I operated the program, I had to select the nubmber of items.
+   So, to reduce the declaration of variables, I used the number of items as the scope of the 'for' loop and, by using
+   the integer value 'i' in 'for' loop, I saved the information in each array step-by-step by connecting each element
+   to 'i'. I think it was a key point in this workshop.
+2. For example, when I declare the array whose size is 3 like 'array[3]', this array save the information from array[0]
+   to array[2]. And ,in this workshop, I had to save information to array step-by-step so I used the 'for' loop and,
+   in this 'for' loop, I used the iterator variable 'i' which start from zero instead of one because every arrays start
+   from zero index. Thus I iterated arrays initialzing the iterator variable to zero because, it can make codes simpler
+   than initializing the iterator variable to one.
+3. First of all, array can save a lot of infomation and when we use the array, we type the array in the order of 'data type',
+   'arrangement name' and 'arrangement size'. The 'data type' is tell you what elements of characteristics an array stores
+    and  'arrangement name' is literally a name of arrangement. Lastly 'arrangement size' is tell you how much information
+    an array stores and it is expressed in numbers in square brackets. Thus, if I want to declare an array whose 'data type',
+   'arrangement name' and 'arrangement size' are 'int', 'ABC' and '5' respectively, then I type 'int ABC[5]' on my code.
+    Moreover, in this array, it can save five pieces of information from ABC[0] to ABC[4]. The first element of array always
+    start from zero index instead of one. If we want to save information in the elements in array step-by-step, using 'for' loop is an
+    efficient method. The 'for' loop allows you repeat the same action as many times as you want and you can set the 
+    number of times as the size of array and store information in each element of array.
+	
+
+
+  
+    

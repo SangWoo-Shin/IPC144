@@ -1,0 +1,26 @@
+
+	==================================================
+	Workshop #6 (Part-2):
+	==================================================
+	Name   : SangWoo,Shin
+	ID     : 119294213
+	Email  : sshin36@myseneca.ca
+	Section: NFF
+
+1.   In "ReportData" structure, it consists of three int-type variables and six double-type variables.
+   The memory size of int-type and double-type are 4bytes and 8byte respectively. Thus the total
+   memory size of "ReportData" structure is 60bytes because it is (4bytesX3) + (8bytesX6) = 60bytes.
+     In order to improve the passing of this information to functions, The pointer was used to store
+   the values required for each member in the structure, declare the structure in an array form in the start function,
+   and put the "displayReportData" function in a for-loop to print the result value corresponding to each index.
+   As a result, There was no need to declare a new structure whenever each new item was entered.
+
+2.   Since several members in ReportData sturcture contain common members with CatFoodInfo structure,
+    so, to save the amount of memory of the arguments transferred to the function, CatFoodInfo structure
+    should be decalred in the ReportData structure. As a result, it does not need to declare addtional
+    common variables in ReportData structure and memory could be saved as much as the amount 
+    of memory of common variables. 
+     After modification of the variable declaration, in the "displayReportData" function, The shape of 
+   the variable to be printed should also be modified. For example, the variables sku and price which
+   are the common members in ReportData sturcture and CatFoodInfo structure need to be changed
+   from reportData.sku, reportData.price to reportData.catFoodInfo.sku, reportData.catFoodInfo.sku respectively.

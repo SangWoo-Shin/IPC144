@@ -1,0 +1,24 @@
+	==================================================
+	Workshop #3 (Part-2): Reflection
+	==================================================
+	Name   : Sang Woo Shin
+	ID     : 119294213
+	Email  : sshin36@myseneca.ca
+	Section: NFF
+
+1. In order to map the month integer value to the first three characters, there are two method to accomplish it.
+   First of one is using 'if'. For example, after getting month integer number through the 'scanf', if the integer
+   value is 1, then print out 'JAN' using 'if'. Second of one is using 'switch'. For example, after receiving month integer
+   value through the 'scanf', you can receive the integer value with 'switch' and print out the characters in the case
+   corresponding to the integer value. Additionally, if you want to print out the next character value, you can put each
+   function into the iteration tools like 'while', 'do~while' or 'for' and run it. whether using 'if' or 'switch'.
+2. There are 3 types of iteration constructs. First of one is 'while' and second one is 'do~while' and last one is 'for'. When I 
+   find some errors during making iteration program, then I usually use 'break point' function. Because majority of errors from
+   iteration are occured by typing wrong value into the program so ,by using 'break point', I can easily find wrong value
+   which happens error.
+3. Before debugging the program, I usually use 'build' function, Through the 'build' I can find errors or warnings in advance.
+   So if there are no errors in my program then I press the 'Debug' button. However, if there are errors or warnings in my 
+   program, then I check the errors or warnings through the error list which is located under the code and, after checking the
+   location of error, I use 'break point' to confirm the value causing the error.
+   
+   

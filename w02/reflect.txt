@@ -1,0 +1,24 @@
+	==================================================
+	Workshop #2 (reflect)
+	==================================================
+	Name   : SangWoo Shin
+	ID     : 119294213
+	Email  : sshin36@myseneca.ca
+	Section: NFF
+
+1.  Since computer recognise all number as binary, there are always error to express real number like 10.12.
+    This number can not be expressed by binary, so computer shows an approximation. 
+    Moreover, the error that occurs at this time is called 'floating point error'.
+
+2. a) intValue % 2 : 0 - 1
+   b) intValue % 3 : 0 - 2
+   c) intValue % 100 : 0 - 99
+
+3. int totalSlices = 11 * 12;
+   int estimatedSlices = 21 * 3;
+   int wholePizzasEaten = (21 * 3)  /  12;
+   int extraSlicesNeeded = (11 * 12) - (21 * 3);
+
+4. In performing arithmetic operations, accuarcy is key. However if we do not convert floating-values to integers
+   when we perform the arithmetic operations, in the procedure handling floating-values, there would be an error
+   because of 'floating point error' mentioned above.
